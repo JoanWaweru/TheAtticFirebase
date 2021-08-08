@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332151961624",
+    "project_id": "theattic-122466",
+    "storage_bucket": "theattic-122466.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332151961624:android:e0047ae7e1f4da75726b6d",
+        "android_client_info": {
+          "package_name": "com.joan.theattic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332151961624-rpt2qein9fsknereuso4vkuna5n42m38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWg3jZAyW5WOtXuOJxTTLu0jfcKZieIDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332151961624-rpt2qein9fsknereuso4vkuna5n42m38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_app_logo"/>
+    </Toolbar>
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_add_profile"
+        android:layout_below="@+id/tool_bar"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/profUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebutton"
+        android:hint="@string/enter_display_name"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:layout_below="@id/profUserName"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+    <Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_app_logo"/>
+    </Toolbar>
+
+    <ImageButton
+        android:id="@+id/imgBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_add_photo"
+        android:layout_below="@+id/tool_bar"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebutton"
+        android:hint="@string/enter_image_title"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/textDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:hint="@string/enter_image_description"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/postBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        android:layout_below="@id/textDesc"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
